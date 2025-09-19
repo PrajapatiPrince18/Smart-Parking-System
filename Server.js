@@ -12,7 +12,7 @@ const bookingRoutes = require("./Routes/bookingRoutes");
 const adminRoutes = require("./Routes/adminRoutes");
 
 // Import createDefaultAdmin function
-const { createDefaultAdmin } = require("./models/Admin");
+const { createDefaultAdmin } = require("./Models/Admin");
 
 const app = express();
 
@@ -75,3 +75,4 @@ const startServer = async () => {
 
 // Start everything
 startServer();
+
